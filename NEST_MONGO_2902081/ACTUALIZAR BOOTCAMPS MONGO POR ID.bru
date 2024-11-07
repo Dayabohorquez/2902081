@@ -1,0 +1,21 @@
+meta {
+  name: ACTUALIZAR BOOTCAMPS MONGO POR ID
+  type: http
+  seq: 5
+}
+
+patch {
+  url: http://localhost:3000/users/672cd685824756008601db1d
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+      "password": "111.a"
+    }
+}

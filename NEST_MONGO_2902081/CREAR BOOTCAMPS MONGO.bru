@@ -1,0 +1,25 @@
+meta {
+  name: CREAR BOOTCAMPS MONGO
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/bootcamps/
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+      "name": "dsgfs343",
+      "phone": -5456564,
+      "address": "Calle 52 13 65",
+      "averageRating": -11,
+      "createAt": "2024-11-12T00:00:00.000Z"
+    }
+}
